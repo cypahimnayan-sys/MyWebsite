@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#faf9f7" />
+    <meta name="description" content="Portfolio of Cyril E. Pahimnayan, an IT student with a passion for design: interface concepts, posters, infographics, and print work." />
+    <title>Cyril E. Pahimnayan — Design Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body id="top">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="header-inner section-shell">
+        <a class="wordmark" href="#top" aria-label="Cyril E. Pahimnayan, back to top">c<span>.</span>p <span class="wordmark-star" aria-hidden="true">✳</span></a>
+        <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+          <a href="#work">Work</a>
+          <a href="#about">About</a>
+          <a href="#background">Background</a>
+        </nav>
+        <a class="header-contact" href="#contact">Let’s connect <span class="arrow-icon" aria-hidden="true"></span></a>
+        <button class="mobile-menu" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Open navigation"><span></span><span></span></button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <span class="hero-pops" aria-hidden="true">
+          <span class="hero-pop hero-pop-sparkle hero-pop-sparkle-one"></span>
+          <span class="hero-pop hero-pop-dot hero-pop-dot-one"></span>
+          <span class="hero-pop hero-pop-dot hero-pop-dot-two"></span>
+          <span class="hero-pop hero-pop-dot hero-pop-dot-three"></span>
+          <span class="hero-pop hero-pop-sparkle hero-pop-sparkle-two"></span>
+          <span class="hero-pop hero-pop-sparkle hero-pop-sparkle-three"></span>
+          <span class="hero-pop hero-pop-dot hero-pop-dot-four"></span>
+          <span class="hero-pop hero-pop-dot hero-pop-dot-five"></span>
+          <span class="hero-pop hero-pop-sparkle hero-pop-sparkle-four"></span>
+          <span class="hero-pop hero-pop-sparkle hero-pop-sparkle-five"></span>
+        </span>
+        <img class="hero-image" src="images/1754007133255.png" alt="Portrait of Cyril E. Pahimnayan" width="2560" height="2560" fetchpriority="high" />
+        <div class="hero-inner">
+          <div class="hero-eyebrow"><span class="status-dot" aria-hidden="true"></span> IT · GRAPHIC &amp; UI DESIGN</div>
+          <h1 id="hero-title">Cyril E.<br /><em>Pahimnayan<span>.</span></em></h1>
+          <p class="hero-description">I design interfaces and visual materials<br class="desktop-break" /> for screens and print.</p>
+          <a class="editorial-button" href="#work">Explore my work <span class="arrow-icon" aria-hidden="true"></span></a>
+          <div class="hero-footer">
+            <span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg> Taytay, Rizal, Philippines</span>
+          </div>
+        </div>
+      </section>
+
+      <div class="discipline-band section-shell" aria-label="Design disciplines">
+        <span>UI DESIGN <b aria-hidden="true">＋</b></span>
+        <span>VISUAL COMMUNICATION <b aria-hidden="true">＋</b></span>
+        <span>POSTERS &amp; INFOGRAPHICS <b aria-hidden="true">＋</b></span>
+        <span>PRINT DESIGN</span>
+      </div>
+
+      <section class="work-section section-shell" id="work" aria-labelledby="work-title">
+        <div class="section-topline"><span class="eyebrow">01 / PROJECTS</span><span class="small-note">Screens. Stories. Print.</span></div>
+        <div class="section-title-row">
+          <h2 id="work-title">Selected <em>work.</em></h2>
+          <p>Interface concepts, posters, infographics, and print designs <br />from class projects, ALPHA activities, and my capstone.</p>
+        </div>
+        <div class="work-toolbar">
+          <div class="work-filters" role="group" aria-label="Filter projects">
+            <button type="button" class="filter-button" data-filter="All work" aria-pressed="true">All work</button>
+            <button type="button" class="filter-button" data-filter="UI Design" aria-pressed="false">UI Design</button>
+            <button type="button" class="filter-button" data-filter="Posters" aria-pressed="false">Posters</button>
+            <button type="button" class="filter-button" data-filter="Infographics" aria-pressed="false">Infographics</button>
+            <button type="button" class="filter-button" data-filter="Print" aria-pressed="false">Print</button>
+          </div>
+          <span class="work-count" id="work-count" aria-live="polite">13 projects</span>
+        </div>
+        <div class="project-grid" id="project-grid"></div>
+      </section>
+
+      <section class="about-section" id="about" aria-labelledby="about-title">
+        <div class="section-shell">
+          <div class="section-topline"><span class="eyebrow">02 / THE PERSON BEHIND THE WORK</span></div>
+          <div class="about-layout">
+            <div>
+              <h2 id="about-title">A little<br /><em>about me.</em></h2>
+              <a class="about-signature" href="#contact">Cyril E. Pahimnayan <span class="arrow-icon" aria-hidden="true"></span></a>
+            </div>
+            <div class="about-content">
+              <p class="about-lead">I’m a fourth-year IT student who loves design, from app screens to posters and print.</p>
+              <p>I'm especially interested in UI/UX and still learning my way into it. I'm looking for an internship or entry-level opportunity where I can learn from a team, keep improving my skills, and contribute where I can.</p>
+            </div>
+          </div>
+          <div class="skills-heading">
+            <h3>Skills &amp; strengths</h3>
+            <span class="small-note">Tools I use and strengths I bring.</span>
+          </div>
+          <div class="skills-grid">
+            <div>
+              <h4 class="list-label">TECHNICAL SKILLS</h4>
+              <div class="skill-row"><h5>Graphic / UI Design</h5><p>Canva · Figma · Adobe Photoshop · ibis Paint</p></div>
+              <div class="skill-row"><h5>Basic Programming</h5><p>Java · Python · C++</p></div>
+              <div class="skill-row"><h5>Web Basics</h5><p>HTML · CSS · JavaScript</p></div>
+              <div class="skill-row"><h5>Productivity Tools</h5><p>Microsoft Office · Google Workspace</p></div>
+            </div>
+            <div>
+              <h4 class="list-label">CORE STRENGTHS</h4>
+              <ul class="strength-list">
+                <li>Teamwork</li><li>Attention to detail</li>
+                <li>Time management</li><li>Willingness to learn</li>
+                <li>Communication</li><li>Problem-solving</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="background-section section-shell" id="background" aria-labelledby="background-title">
+        <div class="section-topline"><span class="eyebrow">03 / MY FOUNDATION</span></div>
+        <h2 id="background-title">Education &amp;<br /><em>involvement.</em></h2>
+        <div class="background-grid">
+          <div>
+            <h3 class="background-label">Education</h3>
+            <article class="timeline-item">
+              <span class="eyebrow">2023–Present</span>
+              <h4>Bachelor of Science in Information Technology</h4>
+              <p>STI College Ortigas-Cainta</p>
+              <p class="education-note">Currently in 4th year</p>
+            </article>
+            <article class="timeline-item">
+              <span class="eyebrow">2021–2023</span>
+              <h4>Senior High School: ICT Strand</h4>
+              <p>Golden Faith Academy</p>
+            </article>
+          </div>
+          <div>
+            <h3 class="background-label">Leadership</h3>
+            <article class="timeline-item">
+              <span class="eyebrow">MAY–DEC 2025 · STI COLLEGE ORTIGAS-CAINTA</span>
+              <h4>Creative Officer</h4>
+              <p>ALPHA: Alliance of Leading Programmers through Heuristic Adaptation</p>
+              <p class="leadership-description">Served as a creative officer, designing posters and event materials while helping with coordination and event management.</p>
+            </article>
+            <h3 class="background-label training-title">Seminars &amp; training</h3>
+            <ul class="training-list">
+              <li>ICT Tech Fest · November 2025</li>
+              <li>Sync and Learn: Catch Up, Level Up · October 2025</li>
+              <li>Cyber Fest 2025: Innovation and Digital Activity for Programmers · May 2025</li>
+              <li>Oracle Academy: Java Fundamentals · June 2024</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="section-shell">
+          <div class="section-topline"><span class="eyebrow">04 / START A CONVERSATION</span><span class="contact-flower" aria-hidden="true">✳</span></div>
+          <h2 id="contact-title">Let’s <em>connect.</em></h2>
+          <p>I'm open to internship and entry-level opportunities. If you'd like to talk, feel free to reach out.</p>
+          <div class="contact-bottom">
+            <a class="contact-email" href="mailto:cypahimnayan@gmail.com">cypahimnayan@gmail.com <span class="arrow-icon" aria-hidden="true"></span></a>
+            <div class="contact-details"><a href="tel:+639384357630">0938 435 7630</a><span>Taytay, Rizal</span></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell">
+      <span>© <span id="year"></span> Cyril E. Pahimnayan</span>
+      <span class="footer-note">Thanks for visiting.</span>
+      <a href="#top">Back to top <span class="arrow-icon arrow-icon-up" aria-hidden="true"></span></a>
+    </footer>
+
+    <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title" aria-describedby="dialog-description">
+      <button class="dialog-close" type="button" aria-label="Close project">×</button>
+      <span class="eyebrow" id="dialog-category"></span>
+      <h2 id="dialog-title"></h2>
+      <p id="dialog-description"></p>
+      <div class="dialog-images" id="dialog-images"></div>
+      <div class="detail-footer">
+        <button class="detail-nav" id="previous-project" type="button"><span class="arrow-icon arrow-icon-left" aria-hidden="true"></span> Previous</button>
+        <span id="dialog-position"></span>
+        <button class="detail-nav" id="next-project" type="button">Next <span class="arrow-icon arrow-icon-right" aria-hidden="true"></span></button>
+      </div>
+    </dialog>
+  </body>
+</html>
